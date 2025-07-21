@@ -18,3 +18,6 @@ API desenvolvida com Express para validar, formatar e gerar CPFs automaticamente
 git clone https://github.com/GabrielG71/CPF-VALIDE-API
 cd CPF-VALIDE-API
 npm install
+npm run dev (Para ambiente de desenvolvimento)
+npm run start (Para Produção)
+npm test (Para Testes)
