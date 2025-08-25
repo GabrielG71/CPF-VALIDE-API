@@ -21,7 +21,6 @@ API desenvolvida com Express para validar, formatar e gerar CPFs automaticamente
 - ✅ **Validação de CPF** - Verificação completa da integridade do número
 - 🔧 **Formatação de CPF** - Conversão para formato padrão XXX.XXX.XXX-XX
 - 🎲 **Geração de CPF** - Criação de CPFs válidos aleatórios
-- 🌐 **API RESTful** - Endpoints bem definidos com respostas em JSON
 
 ---
 
@@ -83,15 +82,15 @@ A API estará disponível em: `http://localhost:3000`
 
 ```
 cpf-valide-api/
-├── src/
-│   ├── controllers/         # Controladores da API
-│   ├── services/           # Lógica de negócio
-│   ├── routes/             # Rotas da API
-│   └── app.js              # Configuração do Express
-├── tests/                  # Testes unitários e integração
+├── .editorconfig           # Configurações do editor
+├── .gitattributes          # Atributos do Git
+├── .gitignore              # Arquivos ignorados pelo Git
+├── LICENSE                 # Licença do projeto
+├── README.md               # Documentação
+├── package-lock.json       # Lock das dependências
 ├── package.json            # Dependências e scripts
-├── server.js               # Ponto de entrada
-└── README.md               # Documentação
+├── server.js               # Servidor principal da aplicação
+└── test.js                 # Testes da aplicação
 ```
 
 ---
